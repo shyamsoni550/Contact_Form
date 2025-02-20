@@ -1,0 +1,63 @@
+body {
+    background-color: #E5E4E2; /* Platinum */
+    font-family: Arial, sans-serif;
+}
+table td {
+
+    height: 100px; /* Sets each table cell to a height of 50 pixels */
+  
+  }
+  
+  
+  
+  /* Or, to adjust height based on content with line-height: */
+  
+  table td {
+  
+    line-height: 2em; /* Sets the line height to 2 times the font size */
+  
+  }
+  
+  
+  
+  /* To set a fixed height for the entire table using a container div: */
+  
+  .table-container {
+  
+    height: 300px;
+  
+  }
+  
+
+table {
+    max-width: 600px;
+    margin: auto;
+    background: #F5F5F5;
+    color: black;
+    font:bold;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #5A5A5A; /* Gunmetal Grey */
+    color: white;
+}
+
+tr:hover {
+    /* background-color: #e5e1e1; Light Grey on hover */
+    transition: background-color 0.3s ease-in-out;
+}
+
+h2
+{
+    text-align: center;
+    align-items: center;
+}
